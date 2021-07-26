@@ -1,7 +1,7 @@
 package hw2;
 
-public class Main {
+public class Main extends ConsoleMenu{
     public static void main(String[] args) {
-        ConsoleMenu consoleMenu = new ConsoleMenu();
+        new Main().run();
     }
 }

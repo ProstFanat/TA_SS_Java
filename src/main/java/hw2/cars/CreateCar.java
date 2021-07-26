@@ -11,7 +11,7 @@ public class CreateCar {
         int maxSpeed = reader.getCarMaxSpeed();
 
         Car car = new Car(brand, model, maxSpeed);
-
+        System.out.println(brand + " " + model + " created!");
         return car;
     }
 }

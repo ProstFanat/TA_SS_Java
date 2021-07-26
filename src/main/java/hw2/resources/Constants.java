@@ -6,5 +6,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Constants {
-    List<Car> cars = new ArrayList<>();
+    public static List<Car> cars = new ArrayList<>();
 }

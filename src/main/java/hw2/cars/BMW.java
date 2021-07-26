@@ -1,6 +1,7 @@
 package hw2.cars;
 
 public class BMW extends Car {
+
     public BMW(String brand, String model, int maxSpeed) {
         super(brand, model, maxSpeed);
     }

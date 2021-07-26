@@ -2,6 +2,8 @@ package hw2.cars;
 
 import hw2.intefaces.Alarm;
 import hw2.intefaces.Vehicle;
+import hw2.resources.Constants;
+
 
 public class Car implements Alarm, Vehicle {
     protected String brand;
@@ -12,6 +14,7 @@ public class Car implements Alarm, Vehicle {
         this.brand = brand;
         this.maxSpeed = Math.max(speed, 0);
         this.model = model;
+        Constants.cars.add(this);
     }
 
     @Override
